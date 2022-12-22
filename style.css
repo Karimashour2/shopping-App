@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(37, 29, 86);
+}
+.app{
+  width: 90%;
+  height: 100%;
+  background-color: rgba(166, 206, 241, 0.89);
+  /* margin-left: calc((100% - 700px) / 2); */
+  padding: 10px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+form input{
+  width: 90%;
+  height: 30px;
+  margin-left: 5%;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-color: rgb(37, 29, 86);
+  box-shadow: 3px 3px 5px rgba(11, 11, 11, 0.2);
+  padding: 0 5px 0 5px;
+  font-size: 1em;
+}
+.products-list{
+  /* width: 680px; */
+  margin: 20px 20px 0 20px;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  /* grid-template-columns: auto auto auto; */
+  /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+  flex-wrap: wrap;
+  gap: 28px;
+  padding: 0 10px 0 10px;
+  
+}
+.empty-card{
+  width: 206px;
+}
+.product-card{
+  width: 206px;
+  height: 450px;
+  /* border: 1px black solid; */
+  box-shadow: 2px 2px 5px rgba(11, 11, 11, 0.2);
+  border-radius: 15px;
+}
+.product-card .title{
+  text-align: center;
+  font-size: 20px;
+  height: 70px;
+  margin: 5px;
+}
+.product-card img{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background-color: aliceblue;
+}
+.product-card .price{
+  text-align: center;
+}
+.product-card .desc{
+  margin: 10px 0 10px 0;
+  height: 105px;
+  padding: 5px;
+  overflow-y: auto;
+}
+footer{
+  margin: 20px; 
+  text-align: center;
+  color: white;
+}
